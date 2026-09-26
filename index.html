@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FireMare — автосервис в Ахелое</title>
+  <meta name="description" content="FireMare — автосервис в Ахелое. Кузовной ремонт, покраска, обслуживание. Отправьте фото в WhatsApp для предварительной оценки стоимости." />
+  <style>
+    :root{--bg:#0b0b0d;--card:#151519;--muted:#a7a7b0;--text:#fff;--accent:#ff3b30;--accent2:#ffb000;--line:#2a2a31;--ok:#25D366;--max:1080px}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--text);background:radial-gradient(900px 500px at 90% -10%,rgba(255,59,48,.18),transparent 60%),radial-gradient(700px 500px at 5% 20%,rgba(255,176,0,.10),transparent 60%),var(--bg);line-height:1.5}
+    a{text-decoration:none;color:inherit}
+    .wrap{width:min(calc(100% - 32px),var(--max));margin:0 auto}
+    header{min-height:76vh;display:grid;align-items:center;padding:34px 0 56px}
+    .top{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-bottom:54px}
+    .brand{font-weight:900;letter-spacing:.08em;font-size:24px}.brand span{color:var(--accent)}
+    .pill{border:1px solid var(--line);padding:9px 14px;border-radius:999px;color:#ddd;font-size:14px;background:rgba(255,255,255,.03)}
+    .hero{max-width:840px}.eyebrow{color:var(--accent2);font-weight:800;text-transform:uppercase;letter-spacing:.12em;font-size:13px}
+    h1{font-size:clamp(42px,8vw,84px);line-height:.98;margin:14px 0 22px;letter-spacing:-.04em}
+    .lead{font-size:clamp(18px,2.4vw,24px);color:#d7d7dc;max-width:730px;margin:0 0 10px}
+    .bgline{color:var(--muted);font-size:15px;margin-top:8px}
+    .actions{display:flex;flex-wrap:wrap;gap:12px;margin:30px 0 18px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:52px;padding:0 20px;border-radius:14px;font-weight:800;border:1px solid transparent;transition:.2s ease}.btn:hover{transform:translateY(-2px)}
+    .btn-main{background:var(--accent)}.btn-wa{background:var(--ok);color:#07150a}.btn-ghost{border-color:var(--line);background:#151519}
+    section{padding:68px 0}h2{font-size:clamp(28px,4vw,44px);margin:0 0 26px;letter-spacing:-.02em}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .card{border:1px solid var(--line);background:linear-gradient(180deg,rgba(255,255,255,.045),rgba(255,255,255,.02));border-radius:20px;padding:24px;min-height:180px}
+    .num{font-size:13px;color:var(--accent2);font-weight:900;letter-spacing:.12em}.card h3{font-size:21px;margin:14px 0 9px}.card p{margin:0;color:var(--muted)}
+    .estimate{display:grid;grid-template-columns:1.4fr .8fr;gap:20px;border:1px solid var(--line);border-radius:24px;padding:30px;background:linear-gradient(135deg,rgba(255,59,48,.12),rgba(255,176,0,.05))}
+    .estimate p{color:#d6d6dc;margin:8px 0 22px}.steps{display:grid;gap:10px;align-content:center}.step{border:1px solid var(--line);background:rgba(0,0,0,.24);border-radius:14px;padding:14px 16px;color:#ddd}
+    .contact{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.info{border:1px solid var(--line);border-radius:20px;padding:24px;background:var(--card)}.info small{display:block;color:var(--muted);margin-bottom:6px}.info strong{font-size:19px}
+    .hours div{margin:4px 0;color:#ddd}.hours span{color:var(--muted)}
+    footer{padding:32px 0 46px;color:#8e8e98;font-size:14px;border-top:1px solid var(--line)}
+    @media(max-width:760px){header{min-height:auto;padding-top:22px}.top{padding-bottom:46px}.pill{display:none}.grid,.estimate,.contact{grid-template-columns:1fr}section{padding:50px 0}.btn{width:100%}.actions{display:grid}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="top">
+      <div class="brand">FIRE<span>MARE</span></div>
+      <div class="pill">Ахелой · Aheloy</div>
+    </div>
+    <div class="hero">
+      <div class="eyebrow">Автосервис · Автосервиз</div>
+      <h1>Кузовной ремонт и покраска в Ахелое</h1>
+      <p class="lead">Пришлите фотографии повреждения в WhatsApp. Мы посмотрим и дадим предварительную оценку стоимости ремонта.</p>
+      <div class="bgline">Изпратете снимки в WhatsApp за предварителна оценка на ремонта.</div>
+      <div class="actions">
+        <a class="btn btn-main" href="tel:+359877775626">📞 Позвонить</a>
+        <a class="btn btn-wa" href="https://wa.me/359877775626?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D1%83%D0%B7%D0%BD%D0%B0%D1%82%D1%8C%20%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D0%B0.%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%84%D0%BE%D1%82%D0%BE." target="_blank" rel="noopener">📷 Отправить фото</a>
+        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=Industrial%20area%2C%208217%20Aheloy%2C%20Bulgaria" target="_blank" rel="noopener">📍 Маршрут</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section>
+  <div class="wrap">
+    <h2>Услуги</h2>
+    <div class="grid">
+      <div class="card"><div class="num">01</div><h3>Кузовной ремонт</h3><p>Ремонт и восстановление кузовных деталей после повреждений и ДТП.</p></div>
+      <div class="card"><div class="num">02</div><h3>Покраска</h3><p>Подготовка, покраска деталей и аккуратный подбор цвета.</p></div>
+      <div class="card"><div class="num">03</div><h3>Обслуживание</h3><p>Диагностика и основные работы по техническому обслуживанию автомобиля.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="estimate">
+      <div>
+        <div class="eyebrow">Оценка по фотографии</div>
+        <h2>Сначала можно просто написать</h2>
+        <p>Сделайте несколько фотографий повреждения с разных ракурсов и отправьте их нам в WhatsApp. Это поможет предварительно понять объём работ и стоимость.</p>
+        <a class="btn btn-wa" href="https://wa.me/359877775626?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%B5%D0%B4%D0%B2%D0%B0%D1%80%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%83%D1%8E%20%D0%BE%D1%86%D0%B5%D0%BD%D0%BA%D1%83%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D0%B0." target="_blank" rel="noopener">Отправить фотографии</a>
+      </div>
+      <div class="steps">
+        <div class="step">1. Сделайте 3–5 фото</div>
+        <div class="step">2. Отправьте их в WhatsApp</div>
+        <div class="step">3. Получите предварительную оценку</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Контакты</h2>
+    <div class="contact">
+      <div class="info">
+        <small>Телефон / WhatsApp</small>
+        <strong><a href="tel:+359877775626">+359 877 775 626</a></strong>
+      </div>
+      <div class="info">
+        <small>Адрес</small>
+        <strong>Industrial area, 8217 Ахелой</strong>
+        <div style="margin-top:14px"><a href="https://www.google.com/maps/search/?api=1&query=Industrial%20area%2C%208217%20Aheloy%2C%20Bulgaria" target="_blank" rel="noopener" style="color:#ffb000;font-weight:800">Открыть в Google Maps →</a></div>
+      </div>
+      <div class="info hours">
+        <small>Часы работы</small>
+        <div><strong>Пн–Пт</strong> <span>08:30–17:00</span></div>
+        <div><strong>Сб</strong> <span>09:00–13:00</span></div>
+        <div><strong>Вс</strong> <span>выходной</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">© FireMare · Автосервис в Ахелое / Автосервиз в Ахелой</div>
+</footer>
+</body>
+</html>
